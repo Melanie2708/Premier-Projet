@@ -58,6 +58,17 @@ a {
     color: var(--main-bg-color)
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+div a{
+    text-align: right;
+    margin-left: 50px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
