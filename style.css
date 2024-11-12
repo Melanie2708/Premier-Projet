@@ -58,6 +58,7 @@ a {
     color: var(--main-bg-color)
 }
 
+/****Header***/
 nav{
     display: flex;
     flex-direction: row;
