@@ -31,9 +31,11 @@
         </nav>
       </header>
       <main>
-        <div>
-          <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
-          <p>En plein centre-ville ou en pleine nature</p>
+        <div class="infos">
+          <div class="infos-titre">
+            <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
+            <p>En plein centre-ville ou en pleine nature</p>
+          </div>
           <div>
             <form class="recherche" method="get" action="">
               <i class="fas fa-location-dot recherche-icone"></i>
@@ -41,7 +43,28 @@
               <input class="recherche-bouton" type="submit" value="Rechercher" />
             </form>
           </div>
+          <div class="filtre">
+            <span>Filtres</span>
+            <span class="filtre-type">
+              <i class="fa-solid fa-money-bill-wave"></i>
+              <span>Économique</span>
+            </span>
+            <span class="filtre-type">
+              <i class="fa-solid fa-person"></i>
+              <span>Familial</span>
+            </span>
+            <span class="filtre-type">
+              <i class="fa-solid fa-heart"></i>
+              <span>Romantique</span>
+            </span>
+            <span class="filtre-type">
+              <i class="fa-solid fa-fire"></i>
+              <span>Nos pépites</span>
+            </span>
+          </div>
+          <p><i class="fa-solid fa-info icone-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
+
         <div class="hebergements-and-populaires">
           <section class="hebergements"></section>
           <section class="populaires">
