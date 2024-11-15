@@ -263,9 +263,19 @@ div .menu a {
 .activites {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
 }
 
-.activites-card {
+.activites-cards .card-title {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.activites-card .card {
+  display: flex;
+  margin-top: 33px;
 }
 
 .activites section {
