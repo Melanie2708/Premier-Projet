@@ -256,6 +256,34 @@ div .menu a {
   margin-bottom: 5px;
 }
 
+/****** Activites ***********/
+.activites-groupe {
+  width: 100%;
+}
+.activites {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activites-card {
+}
+
+.activites section {
+  background-color: var(--main-bg-color);
+  border-radius: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.activites img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.activites-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
