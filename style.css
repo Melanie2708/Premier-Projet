@@ -135,7 +135,15 @@ a:hover {
 .icone-info {
   border: 1px lightgrey solid;
   border-radius: 50%;
-  padding: 10px;
+  text-align: center;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.icone {
+  display: flex;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -166,6 +174,7 @@ a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0px;
 }
+
 .hebergements-cards .card {
   display: flex;
   flex-direction: column;
