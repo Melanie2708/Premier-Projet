@@ -171,6 +171,7 @@ div .menu a {
 }
 .hebergements-cards {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -179,8 +180,8 @@ div .menu a {
   flex-direction: column;
   align-content: space-around;
   margin-top: 33px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   height: 230px;
   width: 220px;
 }
