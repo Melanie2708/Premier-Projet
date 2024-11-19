@@ -84,7 +84,7 @@ div .menu a {
 }
 
 .logo {
-  width: 70px;
+  width: 61.09px;
   height: auto;
 }
 
@@ -121,11 +121,23 @@ div .menu a {
   border: 0px;
 }
 
+.recherche-bouton-icone {
+  display: none;
+}
+
+.recherche-bouton-texte {
+  display: inline;
+}
 .filtre {
   font-weight: bold;
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: baseline;
+}
+
+.filtre-liste {
+  display: flex;
+  gap: 20px;
 }
 
 .filtre-type {
@@ -151,6 +163,7 @@ div .menu a {
 }
 .icone {
   display: flex;
+  margin-bottom: 20px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -265,12 +278,12 @@ div .menu a {
 
 /****** Activites ***********/
 .activites {
+  display: flex;
+  flex-direction: column;
   margin-top: 50px;
 }
 
 .activites-cards .card-title {
-  margin-top: 10px;
-  margin-bottom: 2px;
 }
 
 .activites-cards {
@@ -285,13 +298,19 @@ div .menu a {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  width: 300px;
   height: 450px;
   padding: 0px;
 }
 
+.activites-cards a {
+  width: 25%;
+}
+
 .activites-cards .card-content {
   padding-left: 15px;
+  flex-basis: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .activites-cards img {
@@ -337,6 +356,11 @@ div .menu a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  .filtre {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -367,9 +391,35 @@ div .menu a {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+
+  .activites-cards .card {
+    height: 250px;
+  }
+
+  .activites-cards .card-content {
+    flex-basis: 90px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+  .filtre-liste {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .recherche-bouton-icone {
+    display: inline;
+    color: white;
+  }
+
+  .recherche-bouton-texte {
+    display: none;
+  }
+  .filtre-type {
+    width: 162.5px;
+    height: auto;
+  }
 }
