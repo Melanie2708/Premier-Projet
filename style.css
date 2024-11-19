@@ -283,9 +283,6 @@ div .menu a {
   margin-top: 50px;
 }
 
-.activites-cards .card-title {
-}
-
 .activites-cards {
   display: flex;
   justify-content: space-between;
