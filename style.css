@@ -66,7 +66,7 @@ nav {
   align-items: center;
 }
 
-div .menu a {
+.menu a {
   text-align: right;
   margin-left: 50px;
 }
@@ -390,7 +390,7 @@ div .menu a {
   }
 
   .activites-cards .card {
-    height: 250px;
+    height: 300px;
   }
 
   .activites-cards .card-content {
@@ -401,7 +401,24 @@ div .menu a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+  .main-container {
+    padding: 5px;
+  }
+  nav {
+    display: block;
+  }
+  .menu {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .menu a {
+    margin-left: 0px;
+  }
+  .menu .filtre {
+    width: 100%;
+  }
   .filtre-liste {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -414,9 +431,5 @@ div .menu a {
 
   .recherche-bouton-texte {
     display: none;
-  }
-  .filtre-type {
-    width: 162.5px;
-    height: auto;
   }
 }
