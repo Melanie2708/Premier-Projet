@@ -376,7 +376,7 @@ nav {
   }
 
   .populaires-cards a {
-    width: 30%;
+    width: 100%;
   }
 
   .populaires-cards .card-title {
@@ -453,14 +453,13 @@ nav {
     margin-top: 0px;
     width: 100%;
   }
-
+  .populaires-cards img {
+    width: 40%;
+  }
   .populaires-cards {
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
-  .populaires-cards .card {
-    width: 275px;
   }
 
   /**Hébergements**/
