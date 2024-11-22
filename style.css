@@ -399,7 +399,7 @@ nav {
 @media (max-width: 767.98px) {
   /* Menu */
   .main-container {
-    padding: 10px;
+    padding: 0px;
   }
   nav {
     display: flex;
@@ -445,7 +445,6 @@ nav {
 
   /**Populaires**/
   .hebergements-and-populaires section {
-    background-color: transparent;
     border-radius: 0px;
   }
 
@@ -465,11 +464,11 @@ nav {
   }
 
   /**Hébergements**/
+  .hebergements-and-populaires section.hebergements {
+    background-color: transparent;
+  }
   .hebergements {
     order: 1;
-  }
-  .hebergements section {
-    background-color: var(--main-bg-color);
   }
 
   .hebergements-cards .card {
