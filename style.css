@@ -280,26 +280,16 @@ nav {
   margin: 0 auto;
 }
 
-.activites-title {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .activites-cards {
   display: flex;
   width: 100%;
-  padding: 0px;
+
   justify-content: center;
 }
 .activites-cards .card {
   margin-top: 20px;
   margin-right: 20px;
   padding: 0px;
-  height: 439px;
-}
-.activites-cards a {
   flex: 1;
 }
 
@@ -496,6 +486,7 @@ nav {
   .activites-cards a {
     flex: 1;
   }
+
   /**Footer**/
   .pied-de-page {
     flex-direction: column;
