@@ -283,21 +283,19 @@ input::placeholder {
 
 /****** Activites ***********/
 .activites {
-  width: 100%; /* Le conteneur prend toute la largeur disponible */
-  max-width: 95%; /* Largeur maximale du conteneur */
-  margin: 0 auto;
   padding-top: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .activites-cards {
   display: flex;
   width: 100%;
-
+  gap: 20px;
   justify-content: center;
 }
 .activites-cards .card {
   margin-top: 20px;
-  margin-right: 20px;
   padding: 0px;
   flex: 1;
 }
@@ -396,6 +394,10 @@ input::placeholder {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* Menu */
+
+  body {
+    margin: 0px;
+  }
   .main-container {
     padding: 0px;
   }
@@ -405,6 +407,11 @@ input::placeholder {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    padding-top: 30px;
+  }
+  .infos {
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .menu {
     display: flex;
@@ -485,6 +492,11 @@ input::placeholder {
   }
 
   /**Activites**/
+  .activites {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .activites-cards {
     display: flex;
     flex-direction: column;
