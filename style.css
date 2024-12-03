@@ -92,7 +92,7 @@ nav {
 
 /** Recherche**/
 .recherche {
-  display: inline-flex;
+  display: flex;
   gap: 0px;
 }
 
@@ -433,11 +433,19 @@ input::placeholder {
     gap: 10px;
   }
 
+  .recherche-texte {
+    flex: 1; /* Champ texte à 100% */
+  }
+
   .recherche-bouton-icone {
     display: inline;
     color: white;
   }
 
+  .recherche-bouton {
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+  }
   .recherche-bouton-texte {
     display: none;
   }
